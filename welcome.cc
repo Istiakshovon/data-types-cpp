@@ -61,5 +61,9 @@ int main(int argc, char**argv) {
     cout << "Hello "<<characterName<<"! You are "<<age<<" years old";
     
     
+    string name1 = "john";
+    string *pName1 = &name1;
+    
+    cout << *pName1;
     return 0;
 }
